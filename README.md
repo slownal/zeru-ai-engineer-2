@@ -92,7 +92,7 @@ The risk scoring model considers five key features with the following weights:
 - **Collateral Ratio (15%)**: Heavy borrowing increases liquidation probability
 - **Protocol Interaction (10%)**: More complex DeFi usage increases risk complexity
 
-## 📈 KEY FINDINGS
+## KEY FINDINGS
 
 1. **Most wallets show low risk**: 95.1% of wallets have risk scores ≤ 200
 2. **One high-risk wallet identified**: Wallet `0x0039f22efb07a647557c7c5d17854cfd6d489ef3` scored 502 (medium risk)
