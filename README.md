@@ -4,11 +4,11 @@
 
 This project implements a comprehensive wallet risk scoring system that analyzes Ethereum wallet addresses and assigns risk scores ranging from 0 to 1000. The system focuses on Compound V2/V3 protocol interactions and transaction patterns to assess risk levels.
 
-## ✅ TASK COMPLETED SUCCESSFULLY
+## TASK COMPLETED SUCCESSFULLY
 
 The wallet risk scoring system has been successfully implemented and executed. All 103 wallets have been processed and risk scores have been generated.
 
-## 📁 DELIVERABLES READY FOR SUBMISSION
+## DELIVERABLES READY FOR SUBMISSION
 
 ### 1. CSV File with Risk Scores
 **File**: `risk_scores.csv`
@@ -28,7 +28,7 @@ wallet_id,score
 - `README.md` - Comprehensive documentation
 - `check_results.py` - Results verification script
 
-## 📊 RESULTS SUMMARY
+## RESULTS SUMMARY
 
 - **Total Wallets Processed**: 103
 - **Risk Score Range**: 0-502
@@ -42,7 +42,7 @@ wallet_id,score
 - **High Risk (601-800)**: 0 wallets
 - **Very High Risk (801-1000)**: 0 wallets
 
-## 🔍 METHODOLOGY EXPLANATION
+## METHODOLOGY EXPLANATION
 
 ### Data Collection Method
 - **Etherscan API Integration**: Fetched complete transaction history for each wallet
@@ -99,14 +99,14 @@ The risk scoring model considers five key features with the following weights:
 3. **Limited Compound protocol usage**: Most wallets show minimal DeFi borrowing activity
 4. **Conservative risk assessment**: System correctly identifies wallets with high volume and liquidation events as higher risk
 
-## 🔧 TECHNICAL ACHIEVEMENTS
+##  TECHNICAL ACHIEVEMENTS
 
-✅ **Scalable Architecture**: Processes 100+ wallets efficiently
-✅ **Real-time Data**: Uses live blockchain data via Etherscan API
-✅ **Comprehensive Logging**: Detailed execution logs for monitoring
-✅ **Error Handling**: Graceful handling of API failures and edge cases
-✅ **Rate Limiting**: Respects API limits to prevent abuse
-✅ **Modular Design**: Easy to extend with additional features
+ **Scalable Architecture**: Processes 100+ wallets efficiently
+ **Real-time Data**: Uses live blockchain data via Etherscan API
+ **Comprehensive Logging**: Detailed execution logs for monitoring
+ **Error Handling**: Graceful handling of API failures and edge cases
+ **Rate Limiting**: Respects API limits to prevent abuse
+ **Modular Design**: Easy to extend with additional features
 
 ## Installation
 
@@ -179,16 +179,16 @@ This will display:
 - Risk distribution breakdown
 - Top 10 highest risk wallets
 
-## 🎯 COMPLIANCE CHECKLIST
+## COMPLIANCE CHECKLIST
 
-✅ **Fetch Transaction History**: Complete transaction data from Compound V2/V3
-✅ **Data Preparation**: Organized and preprocessed transaction data  
-✅ **Risk Scoring**: Developed scoring model (0-1000 scale)
-✅ **Feature Selection**: Documented rationale for all features
-✅ **Scoring Method**: Clear normalization and weighting approach
-✅ **Risk Indicators**: Justified all risk indicators used
-✅ **CSV Output**: Generated required format with wallet_id and score columns
-✅ **Scalable**: Designed to handle large wallet lists efficiently
+ **Fetch Transaction History**: Complete transaction data from Compound V2/V3
+ **Data Preparation**: Organized and preprocessed transaction data  
+ **Risk Scoring**: Developed scoring model (0-1000 scale)
+ **Feature Selection**: Documented rationale for all features
+ **Scoring Method**: Clear normalization and weighting approach
+ **Risk Indicators**: Justified all risk indicators used
+ **CSV Output**: Generated required format with wallet_id and score columns
+ **Scalable**: Designed to handle large wallet lists efficiently
 
 ## Scalability
 
@@ -235,7 +235,7 @@ The system is designed to be scalable:
 - Caching capabilities for repeated analysis
 - Parallel processing ready for future implementation
 
-## 📈 SAMPLE RESULTS
+## SAMPLE RESULTS
 
 From the execution logs, we can see the system is working correctly:
 
@@ -256,7 +256,7 @@ This wallet shows:
 - Some Compound protocol interaction
 - Would likely receive a high risk score
 
-## 🔒 SECURITY & SCALABILITY
+## SECURITY & SCALABILITY
 
 - API keys stored in environment variables
 - Rate limiting prevents API abuse
